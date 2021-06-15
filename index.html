@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+   <title>Document</title>
+</head>
+<body>
+  <div class="mobile">
+   <div class="meal-mobile-view">
+     
+      <div class="input-container" >
+         <input type="text" placeholder="recepie name..." id='meal-name'>
+         <button onclick="getData()"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="fav-meal">
+         <div>
+            <h3>Favourite meal</h3>
+         </div>
+         <div class="added-fav-meals" id='added-fav-meals'>
+            
+         </div>
+      </div>
+      <div class="random-meal-container" id='random-meal-container'>
+         
+      </div>
+   </div>
+   <div class="modal" id='modal'>
+      
+   </div>
+  </div>
+   
+   <script src="./script.js" defer></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</body>
+</html>
